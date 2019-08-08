@@ -1,8 +1,5 @@
 FROM node:alpine
 
-ENV http_proxy http://jm91722:JSM20190122;1@proxy.internal.epo.org:8080
-ENV https_proxy http://jm91722:JSM20190122;1@proxy.internal.epo.org:8080
-
 WORKDIR '/app'
 
 COPY package.json .
